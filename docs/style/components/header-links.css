@@ -2,23 +2,22 @@
   background-color: var(--header-box-blue);
   border-radius: 4px;
   padding: 4px 12px;
+  width: 316px;
 }
 
 .c-header-links__ul {
   display: flex;
-}
-
-.c-header-links__li:not(:last-child) {
-  padding-right: 8px;
+  justify-content: space-between;
 }
 
 .c-header-links__li:not(:last-child)::after {
   content: "|";
   color: var(--header-divider-gray);
   font-size: 0.8rem;
+  padding-left: 12px;
 }
 
 .c-header-links__anchor {
   color: var(--white);
-  font-size: 0.8rem;
+  font-size: 13px;
 }

@@ -3,8 +3,8 @@
 }
 
 .l-header__inner {
-  width: 1126px;
-  margin-inline: auto;
+  margin-left: 175px;
+  margin-right: 139px;
   padding-block: 0.8rem;
 }
 
@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .l-header__top__right {
