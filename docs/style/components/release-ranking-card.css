@@ -54,8 +54,8 @@
   font-size: 0.7rem;
 }
 
-.c-release-ranking-card__info > p > span {
-  font-size: inherit;
+.c-release-ranking-card__publishdate__text .c-release-ranking-card__pv .c-release-ranking-card__uu {
+  font-size: 0.7rem;
 }
 
 .c-release-ranking-card__publishdate {
