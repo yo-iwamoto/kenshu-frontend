@@ -5,6 +5,7 @@
 
 .c-searchbox__input {
   height: calc(100% - 0.4rem);
+  width: 288px;
   padding: 0.2rem 0.8rem;
 }
 
