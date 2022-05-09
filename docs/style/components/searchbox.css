@@ -8,6 +8,10 @@
   padding: 0.2rem 0.8rem;
 }
 
+.c-searchbox__input:focus {
+  outline: solid var(--outline-blue);
+}
+
 .c-searchbox__input::placeholder {
   color: var(--placeholder-gray);
   font-size: 0.8rem;
@@ -23,4 +27,9 @@
   border-top-right-radius: 0.1rem;
   border-bottom-right-radius: 0.1rem;
   align-items: center;
+  cursor: pointer;
+}
+
+.c-searchbox__button:focus {
+  outline: solid var(--outline-blue);
 }
