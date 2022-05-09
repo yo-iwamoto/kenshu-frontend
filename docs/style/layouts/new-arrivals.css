@@ -1,0 +1,15 @@
+.l-new-arrivals {
+  width: 778px;
+}
+
+.l-new-arrivals__heading {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: normal;
+}
+
+.l-new-arrivals__releases {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

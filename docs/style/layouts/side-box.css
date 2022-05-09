@@ -1,0 +1,9 @@
+.l-side-box {
+  width: 324px;
+}
+
+.l-side-box__heading {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-bottom: 32px;
+}

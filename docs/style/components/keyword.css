@@ -1,0 +1,17 @@
+.c-keyword {
+  display: inline-block;
+  color: var(--heading-black);
+  background-color: var(--keyword-gray);
+  padding: 2px 8px;
+  border-radius: 16px;
+  font-size: 12px;
+}
+
+.c-keyword:hover {
+  font-weight: bold;
+}
+
+.c-keyword.m-read-more {
+  background-color: var(--white);
+  border: 1px solid var(--keyword-gray);
+}
