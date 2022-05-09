@@ -13,3 +13,8 @@
   flex-wrap: wrap;
   gap: 1rem;
 }
+
+.l-new-arrivals__read-more {
+  margin-top: 24px;
+  text-align: center;
+}
