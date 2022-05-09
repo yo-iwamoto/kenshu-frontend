@@ -3,7 +3,8 @@
 }
 
 .l-header__inner {
-  margin-inline: 4rem;
+  width: 1126px;
+  margin-inline: auto;
   padding-block: 0.8rem;
 }
 
