@@ -9,6 +9,8 @@
 @import "./layouts/side-box.css";
 @import "./layouts/main-container.css";
 @import "./layouts/keywords.css";
+@import "./layouts/footer.css";
+@import "./layouts/footer-links.css";
 
 /* components */
 @import "./components/searchbox.css";
@@ -20,3 +22,7 @@
 @import "./components/release-card.css";
 @import "./components/keyword.css";
 @import "./components/read-more.css";
+@import "./components/footer-links-block.css";
+@import "./components/footer-divider.css";
+@import "./components/footer-nav.css";
+@import "./components/copyright.css";
