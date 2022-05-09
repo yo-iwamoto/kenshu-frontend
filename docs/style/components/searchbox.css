@@ -1,0 +1,26 @@
+.c-searchbox {
+  display: flex;
+  height: 30px;
+}
+
+.c-searchbox__input {
+  height: calc(100% - 0.4rem);
+  padding: 0.2rem 0.8rem;
+}
+
+.c-searchbox__input::placeholder {
+  color: var(--placeholder-gray);
+  font-size: 0.8rem;
+  transform: translateY(-0.1rem);
+}
+
+.c-searchbox__button {
+  display: flex;
+  justify-content: center;
+  background-color: var(--searchbox-blue);
+  height: 30px;
+  width: 30px;
+  border-top-right-radius: 0.1rem;
+  border-bottom-right-radius: 0.1rem;
+  align-items: center;
+}

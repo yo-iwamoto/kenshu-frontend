@@ -1,0 +1,12 @@
+.c-logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.c-logo__img {
+}
+
+.c-logo__text {
+  color: var(--header-text-gray);
+}

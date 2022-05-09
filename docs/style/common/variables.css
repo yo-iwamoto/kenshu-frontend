@@ -1,0 +1,15 @@
+:root {
+  --header-blue: #24436f;
+  --header-box-blue: #345584;
+  --searchbox-blue: #3081c9;
+  --tabmenu-blue: #294c7a;
+  --text-gray: #a2a2a2;
+  --header-text-gray: #bfc9d7;
+  --bg-gray: #f2f2f2;
+  --heading-gray: #3b3b3b;
+  --read-more-blue: #3081c9;
+  --footer-bg-gray: #fafafa;
+  --white: #ffffff;
+  --header-divider-gray: #bfc9d7;
+  --placeholder-gray: #bbbbbb;
+}

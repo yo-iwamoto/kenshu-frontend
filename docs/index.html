@@ -1,13 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>kenshu-frontend</title>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  Hello kenshu-frontend
-</body>
+  <head>
+    <title>kenshu-frontend</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/global.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="l-header">
+      <div class="l-header__inner">
+        <div class="l-header__top">
+          <div class="c-logo">
+            <img src="img/logo.svg" alt="PR TIMES" class="c-logo__img"></img>
+            <p class="c-logo__text">プレスリリース・ニュースリリース配信サービスのPR TIMES</p>
+          </div>
+          <div class="l-header__top__right">
+            <nav class="c-header-links">
+              <ul class="c-header-links__ul">
+                <li class="c-header-links__li">
+                  <a class="c-header-links__anchor" href="#">プレスリリースを受信</a>
+                </li>
+                <li class="c-header-links__li">
+                  <a class="c-header-links__anchor" href="#">配信を依頼</a>
+                </li>
+                <li class="c-header-links__li">
+                  <a class="c-header-links__anchor" href="#">ログイン</a>
+                </li>
+              </ul>
+            </nav>
+
+            <form class="c-searchbox">
+              <input class="c-searchbox__input" placeholder="キーワードで検索"></input>
+              <button type="button" class="c-searchbox__button">
+                <img src="img/search.svg" alt="検索ボタン" class="c-searchbox__button_img" />
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="l-header__bottom">
+          <nav class="c-header-menus">
+            <ul class="c-header-menus__ul">
+              <li class="c-header-menus__li">
+                <a class="c-header-menus__anchor m-active" href="#">プレスリリース</a>
+              </li >
+              <li class="c-header-menus__li">
+                <a class="c-header-menus__anchor" href="#">ランキング</a>
+              </li>
+              <li class="c-header-menus__li">
+                <a class="c-header-menus__anchor" href="#">TV</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
