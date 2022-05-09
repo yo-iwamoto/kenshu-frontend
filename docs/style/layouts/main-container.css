@@ -1,0 +1,6 @@
+.l-main-container {
+  margin: 2rem 6rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}

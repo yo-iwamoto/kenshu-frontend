@@ -15,7 +15,6 @@
 .c-searchbox__input::placeholder {
   color: var(--placeholder-gray);
   font-size: 0.8rem;
-  transform: translateY(-0.1rem);
 }
 
 .c-searchbox__button {

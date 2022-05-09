@@ -5,6 +5,10 @@
 /* layouts */
 @import "./layouts/header.css";
 @import "./layouts/release-ranking.css";
+@import "./layouts/new-arrivals.css";
+@import "./layouts/side-box.css";
+@import "./layouts/main-container.css";
+@import "./layouts/keywords.css";
 
 /* components */
 @import "./components/searchbox.css";
@@ -13,3 +17,6 @@
 @import "./components/header-menus.css";
 @import "./components/tabmenu.css";
 @import "./components/release-ranking-card.css";
+@import "./components/release-card.css";
+@import "./components/keyword.css";
+@import "./components/read-more.css";

@@ -1,0 +1,7 @@
+.c-read-more {
+  padding: 6px 16px;
+  color: var(--white);
+  background-color: var(--read-more-blue);
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px 0px var(--shadow-gray);
+}
