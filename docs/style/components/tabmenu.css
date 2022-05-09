@@ -1,0 +1,18 @@
+.c-tabmenu {
+  padding-block: 1rem;
+  background-color: var(--white);
+}
+
+.c-tabmenu__ul {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.c-tabmenu__anchor {
+  color: var(--tabmenu-blue);
+}
+
+.c-tabmenu__anchor.m-active {
+  font-weight: bold;
+}
