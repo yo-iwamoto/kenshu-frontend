@@ -1,0 +1,21 @@
+.l-header {
+  background-color: var(--header-blue);
+}
+
+.l-header__inner {
+  margin-inline: 4rem;
+  padding-block: 0.8rem;
+}
+
+.l-header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.l-header__top__right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

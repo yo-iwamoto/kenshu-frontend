@@ -1,0 +1,24 @@
+.c-header-links {
+  background-color: var(--header-box-blue);
+  border-radius: 4px;
+  padding: 4px 12px;
+}
+
+.c-header-links__ul {
+  display: flex;
+}
+
+.c-header-links__li:not(:last-child) {
+  padding-right: 8px;
+}
+
+.c-header-links__li:not(:last-child)::after {
+  content: "|";
+  color: var(--header-divider-gray);
+  font-size: 0.8rem;
+}
+
+.c-header-links__anchor {
+  color: var(--white);
+  font-size: 0.8rem;
+}
