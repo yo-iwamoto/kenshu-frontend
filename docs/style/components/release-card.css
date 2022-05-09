@@ -17,6 +17,7 @@
   -webkit-line-clamp: 3;
   font-size: 14px;
   margin-bottom: 4px;
+  height: 64px;
 }
 
 .c-release-card__info__detail {
