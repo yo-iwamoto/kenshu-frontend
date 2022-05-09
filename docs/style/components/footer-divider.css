@@ -1,0 +1,7 @@
+.c-footer-divider {
+  background-color: var(--footer-divider-gray);
+  height: 1px;
+  box-shadow: none;
+  margin-block: 0;
+  border: none;
+}
