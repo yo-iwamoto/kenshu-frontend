@@ -10,6 +10,7 @@
   content: "|";
   color: var(--header-divider-gray);
   font-size: 0.8rem;
+  font-weight: bold;
 }
 
 .c-header-menus__anchor {
