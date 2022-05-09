@@ -4,6 +4,7 @@
 
 /* layouts */
 @import "./layouts/header.css";
+@import "./layouts/release-ranking.css";
 
 /* components */
 @import "./components/searchbox.css";
@@ -11,3 +12,4 @@
 @import "./components/logo.css";
 @import "./components/header-menus.css";
 @import "./components/tabmenu.css";
+@import "./components/release-ranking-card.css";
