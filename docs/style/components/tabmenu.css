@@ -1,5 +1,5 @@
 .c-tabmenu {
-  padding-block: 1rem;
+  padding-block: 0.4rem;
   background-color: var(--white);
 }
 
@@ -11,6 +11,7 @@
 
 .c-tabmenu__anchor {
   color: var(--tabmenu-blue);
+  font-size: 0.8rem;
 }
 
 .c-tabmenu__anchor.m-active {
