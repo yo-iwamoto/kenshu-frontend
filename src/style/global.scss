@@ -1,18 +1,16 @@
 /* common */
-@import "./common/base.scss";
 @import "./common/variables.scss";
-
-/* layouts */
-@import "./layouts/header.scss";
-@import "./layouts/release-ranking.scss";
-@import "./layouts/new-arrivals.scss";
-@import "./layouts/side-box.scss";
-@import "./layouts/main-container.scss";
-@import "./layouts/keywords.scss";
-@import "./layouts/footer.scss";
-@import "./layouts/footer-links.scss";
+@import "./common/base.scss";
 
 /* components */
+@import "./components/header.scss";
+@import "./components/release-ranking.scss";
+@import "./components/new-arrivals.scss";
+@import "./components/side-box.scss";
+@import "./components/main-container.scss";
+@import "./components/keywords.scss";
+@import "./components/footer.scss";
+@import "./components/footer-links.scss";
 @import "./components/searchbox.scss";
 @import "./components/header-links.scss";
 @import "./components/logo.scss";
@@ -26,3 +24,4 @@
 @import "./components/footer-divider.scss";
 @import "./components/footer-nav.scss";
 @import "./components/copyright.scss";
+@import "./components//header-right.scss";

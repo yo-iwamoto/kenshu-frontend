@@ -1,11 +1,11 @@
-.c-logo {
+.logo {
   display: flex;
   align-items: center;
   gap: 20px;
 
   &__text {
     width: 335px;
-    font-size: 12px;
+    font-size: var(--font-xxs);
     color: var(--header-text-gray);
   }
 }

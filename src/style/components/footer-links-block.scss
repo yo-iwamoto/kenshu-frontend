@@ -1,17 +1,17 @@
-.c-footer-links-block {
+.footer-links-block {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  font-size: 0.7rem;
+  gap: 16px;
+  font-size: var(--font-xxs);
 
-  &.m-wide {
+  &--wide {
     width: 520px;
   }
 
   &__ul {
     display: flex;
     flex-direction: column;
-    row-gap: 1rem;
+    row-gap: 16px;
     flex-wrap: wrap;
     min-width: 240px;
     height: 200px;

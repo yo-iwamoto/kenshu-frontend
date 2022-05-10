@@ -1,8 +1,8 @@
-.l-side-box {
+.side-box {
   width: 324px;
 
   &__heading {
-    font-size: 1.2rem;
+    font-size: var(--font-lg);
     font-weight: bold;
     margin-bottom: 32px;
   }

@@ -1,4 +1,4 @@
-.c-searchbox {
+.searchbox {
   display: flex;
   height: 30px;
 
@@ -13,19 +13,19 @@
 
     &::placeholder {
       color: var(--placeholder-gray);
-      font-size: 0.8rem;
+      font-size: var(--font-xs);
     }
   }
 
   &__button {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: var(--searchbox-blue);
     height: 30px;
     width: 30px;
-    border-top-right-radius: 0.1rem;
-    border-bottom-right-radius: 0.1rem;
-    align-items: center;
+    border-top-right-radius: 1.6px;
+    border-bottom-right-radius: 1.6px;
     cursor: pointer;
 
     &:focus {

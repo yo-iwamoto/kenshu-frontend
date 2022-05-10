@@ -1,4 +1,4 @@
-.c-header-menus {
+.header-menus {
   &__ul {
     display: flex;
   }
@@ -10,17 +10,17 @@
       &::after {
         content: "|";
         color: var(--header-divider-gray);
-        font-size: 0.8rem;
+        font-size: var(--font-xs);
         font-weight: bold;
       }
     }
   }
 
   &__anchor {
-    font-size: 0.8rem;
+    font-size: var(--font-xs);
     color: var(--header-text-gray);
 
-    &.m-active {
+    &--active {
       color: var(--white);
     }
   }

@@ -1,10 +1,10 @@
-.l-header {
+.header {
   background-color: var(--header-blue);
 
   &__inner {
     margin-left: 175px;
     margin-right: 139px;
-    padding-block: 0.8rem;
+    padding-block: 13px;
   }
 
   &__top {
@@ -12,11 +12,5 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 8px;
-
-    &__right {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-    }
   }
 }

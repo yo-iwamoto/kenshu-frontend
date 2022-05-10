@@ -1,4 +1,4 @@
-.c-footer-nav {
+.footer-nav {
   margin-block: 12px;
 
   &__ul {
@@ -12,6 +12,6 @@
 
   &__anchor {
     color: var(--footer-link-gray);
-    font-size: 11px;
+    font-size: var(--font-xxs);
   }
 }
