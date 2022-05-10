@@ -12,12 +12,12 @@
     align-items: center;
     background-color: var(--header-blue);
     color: var(--white);
+  }
 
-    &number {
-      font-family: "Roboto";
-      font-style: italic;
-      transform: translateX(-0.1rem);
-    }
+  &__rank-number {
+    font-family: "Roboto";
+    font-style: italic;
+    transform: translateX(-0.1rem);
   }
 
   &__thumbnail {

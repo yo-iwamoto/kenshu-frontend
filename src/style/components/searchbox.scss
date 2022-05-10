@@ -20,12 +20,12 @@
   &__button {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: var(--searchbox-blue);
     height: 30px;
     width: 30px;
     border-top-right-radius: 1.6px;
     border-bottom-right-radius: 1.6px;
-    align-items: center;
     cursor: pointer;
 
     &:focus {
