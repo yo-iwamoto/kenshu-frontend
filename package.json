@@ -6,6 +6,7 @@
   "author": "you-5805 <you.iwamoto@prtimes.co.jp>",
   "license": "MIT",
   "scripts": {
+    "dev": "MODE=development webpack server",
     "build:dev": "MODE=development webpack",
     "build": "MODE=production webpack"
   },
@@ -15,6 +16,7 @@
     "sass-loader": "^12.6.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.72.0",
-    "webpack-cli": "^4.9.2"
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
   }
 }

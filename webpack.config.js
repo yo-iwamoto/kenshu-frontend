@@ -29,5 +29,12 @@ module.exports = {
   optimization: {
     minimize: true,
   },
-  target: ["web", "es5"],
+  devServer: {
+    static: {
+      directory: path.join(__dirname, "docs"),
+    },
+    compress: true,
+    port: 3000,
+    allowedHosts: "127.0.0.1",
+  },
 };
