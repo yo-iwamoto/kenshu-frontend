@@ -2,15 +2,15 @@
   width: 778px;
 
   &__heading {
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
+    font-size: var(--font-xl);
+    margin-bottom: 24px;
     font-weight: bold;
   }
 
   &__releases {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 16px;
   }
 
   &__read-more {

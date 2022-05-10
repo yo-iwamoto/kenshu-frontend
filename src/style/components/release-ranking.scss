@@ -1,11 +1,11 @@
 .release-ranking {
-  padding-block: 1.6rem;
+  padding-block: 26px;
   background-color: var(--bg-gray);
 
   &__ul {
     display: flex;
     justify-content: center;
-    gap: 0.8rem;
+    gap: 12px;
     flex-wrap: nowrap;
   }
 }

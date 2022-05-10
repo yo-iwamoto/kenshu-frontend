@@ -5,7 +5,7 @@
 
   &__text {
     width: 335px;
-    font-size: 12px;
+    font-size: var(--font-xxs);
     color: var(--header-text-gray);
   }
 }

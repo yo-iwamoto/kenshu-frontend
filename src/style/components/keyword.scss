@@ -4,7 +4,7 @@
   background-color: var(--keyword-gray);
   padding: 2px 8px;
   border-radius: 16px;
-  font-size: 12px;
+  font-size: var(--font-xs);
 
   &:hover {
     color: var(--black);

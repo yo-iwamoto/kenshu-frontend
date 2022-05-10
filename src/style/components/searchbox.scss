@@ -13,7 +13,7 @@
 
     &::placeholder {
       color: var(--placeholder-gray);
-      font-size: 0.8rem;
+      font-size: var(--font-xs);
     }
   }
 
@@ -23,8 +23,8 @@
     background-color: var(--searchbox-blue);
     height: 30px;
     width: 30px;
-    border-top-right-radius: 0.1rem;
-    border-bottom-right-radius: 0.1rem;
+    border-top-right-radius: 1.6px;
+    border-bottom-right-radius: 1.6px;
     align-items: center;
     cursor: pointer;
 

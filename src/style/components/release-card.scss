@@ -1,7 +1,7 @@
 .release-card {
   width: 380px;
   display: flex;
-  gap: 1rem;
+  gap: 16px;
   padding-bottom: 16px;
   border-bottom: 1px solid var(--border-gray);
 
@@ -13,14 +13,14 @@
       display: -webkit-box;
       -webkit-box-orient: vertical;
       -webkit-line-clamp: 3;
-      font-size: 14px;
+      font-size: var(--font-sm);
       margin-bottom: 4px;
       height: 64px;
     }
 
     &__detail {
       color: var(--text-gray);
-      font-size: 0.7rem;
+      font-size: var(--font-xxs);
       display: flex;
       align-items: center;
       gap: 12px;

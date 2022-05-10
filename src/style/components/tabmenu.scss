@@ -1,16 +1,16 @@
 .tabmenu {
-  padding-block: 0.4rem;
+  padding-block: 6.4px;
   background-color: var(--white);
 
   &__ul {
     display: flex;
-    gap: 1rem;
+    gap: 16px;
     justify-content: center;
   }
 
   &__anchor {
     color: var(--tabmenu-blue);
-    font-size: 0.8rem;
+    font-size: var(--font-xs);
   }
 
   &.m-active {
