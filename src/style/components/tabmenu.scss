@@ -11,9 +11,9 @@
   &__anchor {
     color: var(--tabmenu-blue);
     font-size: var(--font-xs);
-  }
 
-  &.m-active {
-    font-weight: bold;
+    &--active {
+      font-weight: bold;
+    }
   }
 }

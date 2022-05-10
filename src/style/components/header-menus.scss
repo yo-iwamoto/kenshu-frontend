@@ -20,7 +20,7 @@
     font-size: var(--font-xs);
     color: var(--header-text-gray);
 
-    &.m-active {
+    &--active {
       color: var(--white);
     }
   }
