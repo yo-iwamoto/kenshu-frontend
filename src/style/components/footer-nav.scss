@@ -1,17 +1,17 @@
 .c-footer-nav {
   margin-block: 12px;
-}
 
-.c-footer-nav__ul {
-  display: flex;
-  gap: 20px;
-}
+  &__ul {
+    display: flex;
+    gap: 20px;
 
-.c-footer-nav__ul > li {
-  display: inline-block;
-}
+    & > li {
+      display: inline-block;
+    }
+  }
 
-.c-footer-nav__anchor {
-  color: var(--footer-link-gray);
-  font-size: 11px;
+  &__anchor {
+    color: var(--footer-link-gray);
+    font-size: 11px;
+  }
 }

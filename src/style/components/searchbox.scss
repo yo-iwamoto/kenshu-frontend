@@ -1,35 +1,35 @@
 .c-searchbox {
   display: flex;
   height: 30px;
-}
 
-.c-searchbox__input {
-  height: calc(100% - 0.4rem);
-  width: 288px;
-  padding: 0.2rem 0.8rem;
-}
+  &__input {
+    height: calc(100% - 6.4px);
+    width: 288px;
+    padding: 3.2px 12.8px;
 
-.c-searchbox__input:focus {
-  outline: solid var(--outline-blue);
-}
+    &:focus {
+      outline: solid var(--outline-blue);
+    }
 
-.c-searchbox__input::placeholder {
-  color: var(--placeholder-gray);
-  font-size: 0.8rem;
-}
+    &::placeholder {
+      color: var(--placeholder-gray);
+      font-size: 0.8rem;
+    }
+  }
 
-.c-searchbox__button {
-  display: flex;
-  justify-content: center;
-  background-color: var(--searchbox-blue);
-  height: 30px;
-  width: 30px;
-  border-top-right-radius: 0.1rem;
-  border-bottom-right-radius: 0.1rem;
-  align-items: center;
-  cursor: pointer;
-}
+  &__button {
+    display: flex;
+    justify-content: center;
+    background-color: var(--searchbox-blue);
+    height: 30px;
+    width: 30px;
+    border-top-right-radius: 0.1rem;
+    border-bottom-right-radius: 0.1rem;
+    align-items: center;
+    cursor: pointer;
 
-.c-searchbox__button:focus {
-  outline: solid var(--outline-blue);
+    &:focus {
+      outline: solid var(--outline-blue);
+    }
+  }
 }

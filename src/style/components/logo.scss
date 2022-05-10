@@ -2,10 +2,10 @@
   display: flex;
   align-items: center;
   gap: 20px;
-}
 
-.c-logo__text {
-  width: 335px;
-  font-size: 12px;
-  color: var(--header-text-gray);
+  &__text {
+    width: 335px;
+    font-size: 12px;
+    color: var(--header-text-gray);
+  }
 }

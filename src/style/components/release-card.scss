@@ -4,42 +4,43 @@
   gap: 1rem;
   padding-bottom: 16px;
   border-bottom: 1px solid var(--border-gray);
-}
 
-.c-release-card__info {
-  width: 256px;
-}
+  &__info {
+    width: 256px;
 
-.c-release-card__info__title {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  font-size: 14px;
-  margin-bottom: 4px;
-  height: 64px;
-}
+    &__title {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      font-size: 14px;
+      margin-bottom: 4px;
+      height: 64px;
+    }
 
-.c-release-card__info__detail {
-  color: var(--text-gray);
-  font-size: 0.7rem;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
+    &__detail {
+      color: var(--text-gray);
+      font-size: 0.7rem;
+      display: flex;
+      align-items: center;
+      gap: 12px;
 
-.c-release-card__info__detail__publishdate {
-  display: flex;
-  align-items: center;
-  gap: 3px;
-}
+      &__publishdate {
+        display: flex;
+        align-items: center;
+        gap: 3px;
+      }
+    }
+  }
 
-.c-release-card__thumbnail {
-  width: 100px;
-  height: 66px;
-}
+  &__thumbnail {
+    width: 100px;
+    height: 66px;
+  }
 
-/* c-release-card の hover */
-.c-release-card:hover .c-release-card__info__title {
-  text-decoration: underline;
+  &:hover &__info {
+    &__title {
+      text-decoration: underline;
+    }
+  }
 }

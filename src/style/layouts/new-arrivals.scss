@@ -1,20 +1,20 @@
 .l-new-arrivals {
   width: 778px;
-}
 
-.l-new-arrivals__heading {
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
-  font-weight: bold;
-}
+  &__heading {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+  }
 
-.l-new-arrivals__releases {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
+  &__releases {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
 
-.l-new-arrivals__read-more {
-  margin-top: 24px;
-  text-align: center;
+  &__read-more {
+    margin-top: 24px;
+    text-align: center;
+  }
 }

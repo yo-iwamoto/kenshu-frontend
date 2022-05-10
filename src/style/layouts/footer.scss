@@ -2,9 +2,9 @@
   background-color: var(--footer-bg-gray);
   padding-top: 60px;
   padding-bottom: 9px;
-}
 
-.l-footer__inner {
-  width: 1125px;
-  margin-inline: auto;
+  &__inner {
+    width: 1125px;
+    margin-inline: auto;
+  }
 }
