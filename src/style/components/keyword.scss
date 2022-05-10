@@ -5,13 +5,13 @@
   padding: 2px 8px;
   border-radius: 16px;
   font-size: 12px;
-}
 
-.c-keyword:hover {
-  color: var(--black);
-}
+  &:hover {
+    color: var(--black);
+  }
 
-.c-keyword.m-read-more {
-  background-color: var(--white);
-  border: 1px solid var(--keyword-gray);
+  &.m-read-more {
+    background-color: var(--white);
+    border: 1px solid var(--keyword-gray);
+  }
 }

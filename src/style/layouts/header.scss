@@ -1,22 +1,22 @@
 .l-header {
   background-color: var(--header-blue);
-}
 
-.l-header__inner {
-  margin-left: 175px;
-  margin-right: 139px;
-  padding-block: 0.8rem;
-}
+  &__inner {
+    margin-left: 175px;
+    margin-right: 139px;
+    padding-block: 0.8rem;
+  }
 
-.l-header__top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 8px;
-}
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
 
-.l-header__top__right {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
+    &__right {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
 }

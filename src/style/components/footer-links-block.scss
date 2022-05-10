@@ -3,21 +3,21 @@
   flex-direction: column;
   gap: 1rem;
   font-size: 0.7rem;
-}
 
-.c-footer-links-block.m-wide {
-  width: 520px;
-}
+  &.m-wide {
+    width: 520px;
+  }
 
-.c-footer-links-block__ul {
-  display: flex;
-  flex-direction: column;
-  row-gap: 1rem;
-  flex-wrap: wrap;
-  min-width: 240px;
-  height: 200px;
-}
+  &__ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    flex-wrap: wrap;
+    min-width: 240px;
+    height: 200px;
+  }
 
-.c-footer-links-block__anchor {
-  color: var(--footer-link-gray);
+  &__anchor {
+    color: var(--footer-link-gray);
+  }
 }

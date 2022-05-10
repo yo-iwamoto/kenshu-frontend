@@ -2,72 +2,69 @@
   width: 11rem;
   font-size: 0.8rem;
   position: relative;
-}
 
-.c-release-ranking-card__rank {
-  position: absolute;
-  height: 1.5rem;
-  width: 1.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--header-blue);
-  color: var(--white);
-}
+  &__rank {
+    position: absolute;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--header-blue);
+    color: var(--white);
 
-.c-release-ranking-card__ranknumber {
-  font-family: "Roboto";
-  font-style: italic;
-  transform: translateX(-0.1rem);
-}
+    &number {
+      font-family: "Roboto";
+      font-style: italic;
+      transform: translateX(-0.1rem);
+    }
+  }
 
-.c-release-ranking-card__thumbnail {
-  display: inline-block;
-  width: 100%;
-  height: 6.5rem;
-}
+  &__thumbnail {
+    display: inline-block;
+    width: 100%;
+    height: 6.5rem;
+  }
 
-.c-release-ranking-card__bottom {
-  transform: translateY(-12px);
-  padding: 0.6rem;
-  background-color: var(--white);
-}
+  &__bottom {
+    transform: translateY(-12px);
+    padding: 0.6rem;
+    background-color: var(--white);
+  }
 
-.c-release-ranking-card__title {
-  color: var(--heading-black);
-  font-size: 0.7rem;
-  margin-bottom: 0.2rem;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-}
+  &__title {
+    color: var(--heading-black);
+    font-size: 0.7rem;
+    margin-bottom: 0.2rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
 
-.c-release-ranking-card__info {
-  color: var(--text-gray);
-}
+  &__info {
+    color: var(--text-gray);
 
-.c-release-ranking-card__info > p {
-  white-space: nowrap;
-  font-size: 0.7rem;
-}
+    & > p {
+      white-space: nowrap;
+      font-size: 11px;
+    }
+  }
 
-.c-release-ranking-card__publishdate__text .c-release-ranking-card__pv .c-release-ranking-card__uu {
-  font-size: 0.7rem;
-}
+  &__publishdate {
+    display: flex;
+    align-items: center;
+    gap: 3.2px;
+  }
 
-.c-release-ranking-card__publishdate {
-  display: flex;
-  align-items: center;
-  gap: 0.2rem;
-}
+  &__pv {
+    &::after {
+      content: "/";
+      padding-left: 3.2px;
+    }
+  }
 
-.c-release-ranking-card__pv::after {
-  content: "/";
-  padding-left: 0.2rem;
-}
-
-/* カード hover 時 */
-.c-release-ranking-card:hover .c-release-ranking-card__title {
-  text-decoration: underline;
+  &:hover &__title {
+    text-decoration: underline;
+  }
 }

@@ -1,23 +1,27 @@
-.c-header-menus__ul {
-  display: flex;
-}
+.c-header-menus {
+  &__ul {
+    display: flex;
+  }
 
-.c-header-menus__li:not(:last-child) {
-  padding-right: 8px;
-}
+  &__li {
+    &:not(:last-child) {
+      padding-right: 8px;
 
-.c-header-menus__li:not(:last-child)::after {
-  content: "|";
-  color: var(--header-divider-gray);
-  font-size: 0.8rem;
-  font-weight: bold;
-}
+      &::after {
+        content: "|";
+        color: var(--header-divider-gray);
+        font-size: 0.8rem;
+        font-weight: bold;
+      }
+    }
+  }
 
-.c-header-menus__anchor {
-  font-size: 0.8rem;
-  color: var(--header-text-gray);
-}
+  &__anchor {
+    font-size: 0.8rem;
+    color: var(--header-text-gray);
 
-.c-header-menus__anchor.m-active {
-  color: var(--white);
+    &.m-active {
+      color: var(--white);
+    }
+  }
 }
